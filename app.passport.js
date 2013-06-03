@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var express = require('express')
-    flash = require('connect-flash')
+  , flash = require('connect-flash')
   , passport = require('passport')
   , util = require('util')
   , LocalStrategy = require('passport-local').Strategy;
