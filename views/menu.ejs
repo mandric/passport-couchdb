@@ -1,0 +1,9 @@
+<ul>
+<li><a href="/_passport/">home</a></li>
+<% if (!user)  { %>
+<li><a href="/_passport/login">login</a></li>
+<% } else { %>
+<li><a href="/_passport/logout">logout</a></li>
+<% } %>
+<li><a href="/_passport/account">account</a></li>
+</ul>
